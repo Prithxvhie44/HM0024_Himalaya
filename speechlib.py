@@ -7,17 +7,18 @@ r = sr.Recognizer()
 # exceptions at the runtime
 def getPhrase():
     try:
-         
+        audiofile = sr.AudioFile("audio.wav")
+
+        with audiofile as source:
         # use the microphone as source for input.
-        with sr.Microphone() as source2:
              
             # wait for a second to let the recognizer
             # adjust the energy threshold based on
             # the surrounding noise level 
-            r.adjust_for_ambient_noise(source2, duration=0.2)
+            r.adjust_for_ambient_noise(source, duration=0.2)
              
             #listens for the user's input 
-            audio2 = r.listen(source2, phrase_time_limit=20)
+            audio2 = r.listen(source, phrase_time_limit=20)
              
             # Using google to recognize audio
             MyText = r.recognize_google(audio2)

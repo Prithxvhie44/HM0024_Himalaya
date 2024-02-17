@@ -1,15 +1,11 @@
-from yafa import speechlib
 import pandas as pd
 import nltk
 
-def start():
-    text = speechlib.getPhrase()
-    if text == None:
-        print("ERROR: Some error occured while speech to text.")
-        exit(1)
+def getEntry(text):
     tokenized = nltk.word_tokenize(text)
     pos = nltk.pos_tag(tokenized)
     entry = identifyEntry(pos)
+    return entry
 
 def identifyEntry(tags):
     nouns = list()
@@ -20,6 +16,6 @@ def identifyEntry(tags):
         if tag.startswith('N'):
             nouns.append(value)
         if tag == 'CD':
-            amount = int(value)
+            amount = value
     return nouns, amount
 
