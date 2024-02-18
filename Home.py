@@ -25,7 +25,7 @@ st.code("Arnav Tatewar")
 st.link_button("Github", "link here")
 
 st.code("Prithviraj More")
-st.link_button("Github", "link here")
+st.link_button("Github", "https://github.com/Prithxvhie44")
 
 st.code("Vedant Hirekar")
 st.link_button("Github", "link here")
