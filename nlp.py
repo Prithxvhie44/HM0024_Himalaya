@@ -8,7 +8,7 @@ nltk.download('averaged_perceptron_tagger')
 # Parse the sentence using NLP to get keywords and amount
 def getEntry(text):
     # Tokenize using nltk
-    tokenized = nltk.word_tokenize(text
+    tokenized = nltk.word_tokenize(text)
     # Perform POS Tagging using Penn Treebank codeset
     pos = nltk.pos_tag(tokenized)
     entry = identifyEntry(pos)
