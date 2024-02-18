@@ -14,6 +14,8 @@ df1 = df1.reset_index()
 st.line_chart(data = df1,  x = "Date",y = "Amount")
 
 st.divider()
+st.header("Expenditure breakup")
+st.write("Here's a breakup of your expenditure based on the items.")
 
 item_prices = df.groupby('Tags')['Amount'].sum()
 
@@ -28,14 +30,17 @@ ax.axis('equal')
 
 st.pyplot(fig)
 
+st.divider()
+st.header("Investments")
+st.write("Here's how your can achieve your financial goals.")
 
-df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')
-# Group by 'date' (month) and sum the prices
-df_grouped = df.groupby(df['date'].dt.to_period('M'))['price'].sum()
+
+
+df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
+# Group by 'Date' (month) and sum the prices
+df_grouped = df.groupby(df['Date'].dt.to_period('M'))['Amount'].sum()
 # Calculate the average total expenditure per month
 average_expenditure = df_grouped.mean()
-rec_cutting = average_expenditure * 0.1
-print(rec_cutting)
 
 
 
@@ -49,11 +54,17 @@ def calculate_total_amount(principal, monthly_installment, years, interest_rate)
             total_amount += monthly_installment
     return total_amount
 
+ps = st.slider('Principal amount', 1000, 50000, 2000)
+ys = st.slider("Years", 10, 30, 25)
+irs = st.slider("Interest(Monthly)", 1, 25, 4)
 # Define parameters
-principal = 1000
+# principal = 1000
+rec_cutting = average_expenditure * 0.1
+print(rec_cutting)
+principal = ps
 monthly_installment = rec_cutting
-years = 30
-interest_rate = 4
+years = ys
+interest_rate = irs
 
 # Calculate total amount and invested money for each year
 total_amounts = []
