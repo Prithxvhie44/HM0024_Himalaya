@@ -1,6 +1,9 @@
 import pandas as pd
 import nltk
 
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
 def getEntry(text):
     tokenized = nltk.word_tokenize(text)
     pos = nltk.pos_tag(tokenized)
