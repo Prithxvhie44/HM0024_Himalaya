@@ -3,6 +3,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 import numpy as np
+import pickle
 
 
 data = pd.read_csv('mutual-funds.csv')
@@ -45,3 +46,4 @@ model.fit(train_x, train_y)
 
 print(model.score(test_x, test_y))
 
+pickle.dump(model, open('model.h5','wb'))
