@@ -6,13 +6,13 @@ from database import getData
 
 st.set_page_config(layout='wide')
 
-if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
+if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
     st.switch_page("main.py")
 
 generateSideBar()
 
-st.title("Your logged expenses!")
+st.title("`Expense At a Glance`")
 st.divider()
 database = getData()
 
@@ -21,8 +21,6 @@ df = database[database['username'] == st.session_state['username']]
 
 # df['date'] = pd.to_datetime(df['date'], dayfirst=True).dt.date
 # df = df.sort_values(by='date', ascending=[0])
-
-
 
 df['amount']= df['amount'].astype(float)
 avg = round(df['amount'].mean(),2)

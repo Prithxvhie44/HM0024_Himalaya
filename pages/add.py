@@ -7,17 +7,17 @@ from datetime import datetime
 from sidebar import generateSideBar
 from database import addRow
 
+st.set_page_config(page_title="Add Expense", layout="wide")
 
 categories = [
 'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Food',
- 'Apparel', 'Household', 'Festivals', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Health', 'Subscription', 'Rent'
+ 'Apparel', 'Household', 'Festivals', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Health', 'Subscription'
 ]
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
     st.switch_page("main.py")
 
-st.set_page_config(page_title="Add Expense", layout="wide")
 generateSideBar()
 
 # Description

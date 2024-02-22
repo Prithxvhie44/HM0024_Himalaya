@@ -39,8 +39,7 @@ arima_model = model.fit()
 forecast_steps = 6  # Forecast one additional month
 forecast = arima_model.forecast(steps=forecast_steps)
 
-
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(9, 6))
 plt.plot(df_monthly.index, df_monthly['amount'], label='Original Data', color='blue')
 plt.plot(pd.date_range(start=df_monthly.index[-1], periods=forecast_steps+1, freq='M'), np.append(df_monthly['amount'].values[-1], forecast), color='red', label='Forecast')
 plt.title('Monthly ARIMA Forecast')
@@ -51,5 +50,7 @@ plt.legend()
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-# fig, ax = plt.subplots()
 st.pyplot()
+
+with st.expander(label="Learn more"):
+    st.write(" this is a short description about arima and stuff")
