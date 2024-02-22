@@ -29,7 +29,7 @@ st.divider()
 
 def predictCategory(tags):
     category = None
-    cat = pd.read_csv('categories.csv')
+    cat = pd.read_csv('data/categories.csv')
     print(cat.head())
     for tag in tags:
         for i in range(len(cat)):

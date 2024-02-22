@@ -6,7 +6,7 @@ import numpy as np
 import pickle
 
 
-data = pd.read_csv('mutual-funds.csv')
+data = pd.read_csv('data/mutual-funds.csv')
 
 print(data.columns)
 
