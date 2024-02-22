@@ -25,6 +25,7 @@ def saveConfig():
 name, status, username = authenticator.login(location='sidebar')
 
 if status == True:
+    st.toast("Logged in!")
     st.switch_page("pages/dashboard.py")
 elif status == False:
     st.error("incorrect username/password")

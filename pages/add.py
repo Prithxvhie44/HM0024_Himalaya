@@ -9,8 +9,8 @@ from database import addRow
 
 
 categories = [
-'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Documents', 'Public Provident Fund', 'Food',
- 'Apparel', 'Household', 'Festivals', 'Cook', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Beauty', 'Health', 'Subscription', 'Rent'
+'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Food',
+ 'Apparel', 'Household', 'Festivals', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Health', 'Subscription', 'Rent'
 ]
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
@@ -27,22 +27,40 @@ st.write("")
 st.header("Use the below button to record a expense")
 st.divider()
 
+def predictCategory(tags):
+    category = None
+    cat = pd.read_csv('categories.csv')
+    print(cat.head())
+    for tag in tags:
+        for i in range(len(cat)):
+            if tag in cat.iloc[i]['words'].split():
+                category = cat.iloc[i]['category']
+    return category
+
 def addToDatabase(description, amount, category):
+    am = 0
+
+    try:
+        am = int(amount)
+    except:
+        st.error("Amount not a int")
+
     dt = datetime.now()
-    date = dt.strftime("")
+    date = dt.strftime("%y-%m-%d")
 
     addRow(
             date=date,
             username=st.session_state['username'],
             description=description,
             category=category,
-            amount = amount,
+            amount = am,
         )
     st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending.")
 
 
 
 audio = audiorecorder("Start Recording", "Stop Recording")
+
 
 if len(audio) > 0:
 
@@ -60,11 +78,23 @@ if len(audio) > 0:
     # Extract tags and amount using NLP. Defined in nlp.py
     tags, amount = getEntry(phrase)
 
+    am = None
+
+    try:
+        am = int(amount)
+    except:
+        st.error("Amount is not int")
 
     st.info("Given below are the essential components of your sentence.")
+    predicted_category = predictCategory(tags)
+
+    index = 0
+    if predicted_category in [item.lower() for item in categories]:
+        index = [item.lower() for item in categories].index(predicted_category)
+
     tags = ' '.join(tags)
 
-    category = st.selectbox(label="Category", options=categories)
+    category = st.selectbox(label="Category", options=categories, index=index)
     
     st.write(f"Tags: `{tags}`")
     st.write(f"Amount: `{amount}`")

@@ -2,7 +2,9 @@ from database import getData, addRow
 from datetime import datetime
 import pandas as pd
 
-dt = datetime.now()
+# dt = datetime.now()
+with open('categories.csv') as f:
+    print(f)
 
 # df = pd.read_csv('sample-data.csv')
 # for i in range(len(df)):
