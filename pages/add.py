@@ -46,7 +46,7 @@ def addToDatabase(description, amount, category):
         st.error("Amount not a int")
 
     dt = datetime.now()
-    date = dt.strftime("%y-%m-%d")
+    date = dt.strftime("%d-%m-%Y")
 
     addRow(
             date=date,
