@@ -17,7 +17,7 @@ if 'authentication_status' not in st.session_state or st.session_state['authenti
     st.toast("Not authenticated")
     st.switch_page("main.py")
 
-st.set_page_config(page_title="Add Expense")
+st.set_page_config(page_title="Add Expense", layout="wide")
 generateSideBar()
 
 # Description
