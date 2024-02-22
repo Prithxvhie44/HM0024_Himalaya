@@ -1,0 +1,1845 @@
+sr. no,Category,Words
+1,Culture,Art
+,Culture,Music
+,Culture,Dance
+,Culture,Theater
+,Culture,Literature
+,Culture,Film
+,Culture,Painting
+,Culture,Sculpture
+,Culture,Architecture
+,Culture,Poetry
+,Culture,Museum
+,Culture,Exhibition
+,Culture,Gallery
+,Culture,Performance
+,Culture,Opera
+,Culture,Ballet
+,Culture,Symphony
+,Culture,Jazz
+,Culture,Folklore
+,Culture,Tradition
+,Culture,Heritage
+,Culture,Customs
+,Culture,Rituals
+,Culture,Ceremonies
+,Culture,Festivals
+,Culture,Celebration
+,Culture,Cuisine
+,Culture,Cooking
+,Culture,Gastronomy
+,Culture,Culinary
+,Culture,Wine
+,Culture,Beer
+,Culture,Spirits
+,Culture,Mixology
+,Culture,Bartending
+,Culture,Winemaking
+,Culture,Vineyard
+,Culture,Brewery
+,Culture,Distillery
+,Culture,Fashion
+,Culture,Design
+,Culture,Style
+,Culture,Trends
+,Culture,Couture
+,Culture,Textiles
+,Culture,Apparel
+,Culture,Accessories
+,Culture,Jewelry
+,Culture,Cosmetics
+,Culture,Makeup
+,Culture,Hairstyling
+,Culture,Beauty
+,Culture,Skincare
+,Culture,Wellness
+,Culture,Spa
+,Culture,Meditation
+,Culture,Yoga
+,Culture,Mindfulness
+,Culture,Pilgrimage
+,Culture,Sacred
+,Culture,Religion
+,Culture,Spirituality
+,Culture,Faith
+,Culture,Belief
+,Culture,Mythology
+,Culture,Legends
+,Culture,Folklore
+,Culture,Superstition
+,Culture,Astrology
+,Culture,Astronomy
+,Culture,Astrological
+,Culture,Zodiac
+,Culture,Horoscope
+,Culture,Tarot
+,Culture,Divination
+,Culture,Psychic
+,Culture,Paranormal
+,Culture,Occult
+,Culture,Magic
+,Culture,Illusion
+,Culture,Witchcraft
+,Culture,Sorcery
+,Culture,Wizardry
+,Culture,Alchemy
+,Culture,Esoteric
+,Culture,Mysticism
+,Culture,Shamanism
+,Culture,Totem
+,Culture,Ritual
+,Culture,Symbolism
+,Culture,Artifacts
+,Culture,Antiquities
+,Culture,Archeology
+,Culture,History
+,Culture,Ancient
+,Culture,Civilization
+,Culture,Monument
+,Culture,Landmark
+,Culture,Ruins
+,Culture,Relic
+,,
+2,Education,School
+,Education,Teacher
+,Education,Student
+,Education,Classroom
+,Education,Lesson
+,Education,Learning
+,Education,Textbook
+,Education,Exam
+,Education,Homework
+,Education,Grade
+,Education,College
+,Education,University
+,Education,Lecture
+,Education,Seminar
+,Education,Workshop
+,Education,Assignment
+,Education,Project
+,Education,Degree
+,Education,Diploma
+,Education,Certificate
+,Education,Study
+,Education,Research
+,Education,Library
+,Education,Lab
+,Education,Academic
+,Education,Curriculum
+,Education,Syllabus
+,Education,Subject
+,Education,Major
+,Education,Minor
+,Education,Bachelor
+,Education,Master
+,Education,Doctorate
+,Education,Thesis
+,Education,Dissertation
+,Education,Graduation
+,Education,Classmate
+,Education,Professor
+,Education,Dean
+,Education,Principal
+,Education,Counselor
+,Education,Registrar
+,Education,Academic Advisor
+,Education,Campus
+,Education,Dormitory
+,Education,Scholarship
+,Education,Grant
+,Education,Financial Aid
+,Education,Tuition
+,Education,Fee
+,Education,Enrollment
+,Education,Admission
+,Education,Application
+,Education,Entrance Exam
+,Education,Placement Test
+,Education,Extracurricular
+,Education,Club
+,Education,Organization
+,Education,Team
+,Education,Sport
+,Education,Music
+,Education,Art
+,Education,Drama
+,Education,Debate
+,Education,Science Fair
+,Education,Field Trip
+,Education,Study Abroad
+,Education,Exchange Program
+,Education,Internship
+,Education,Co-op
+,Education,Apprenticeship
+,Education,Continuing Education
+,Education,Online Learning
+,Education,Distance Education
+,Education,Virtual Classroom
+,Education,MOOC (Massive Open Online Course)
+,Education,E-learning
+,Education,Blended Learning
+,Education,Adaptive Learning
+,Education,Flipped Classroom
+,Education,Peer Tutoring
+,Education,Academic Integrity
+,Education,Plagiarism
+,Education,Citation
+,Education,Academic Journal
+,Education,Peer-reviewed
+,Education,Research Paper
+,Education,Conference
+,Education,Symposium
+,Education,Workshop
+,Education,Lecture Series
+,Education,Graduation Ceremony
+,Education,Alumni
+,Education,Networking
+,Education,Career Services
+,Education,Resume
+,Education,Job Interview
+,Education,Professional Development
+,Education,Lifelong Learning
+,Education,Educational Technology
+,,
+,,
+3,Self-development,Growth
+,Self-development,Improvement
+,Self-development,Progress
+,Self-development,Self-awareness
+,Self-development,Personal development
+,Self-development,Self-improvement
+,Self-development,Self-reflection
+,Self-development,Self-discovery
+,Self-development,Learning
+,Self-development,Skill-building
+,Self-development,Self-motivation
+,Self-development,Self-discipline
+,Self-development,Resilience
+,Self-development,Empowerment
+,Self-development,Confidence
+,Self-development,Self-esteem
+,Self-development,Self-confidence
+,Self-development,Goal-setting
+,Self-development,Ambition
+,Self-development,Drive
+,Self-development,Determination
+,Self-development,Persistence
+,Self-development,Grit
+,Self-development,Mindfulness
+,Self-development,Meditation
+,Self-development,Yoga
+,Self-development,Wellness
+,Self-development,Well-being
+,Self-development,Stress management
+,Self-development,Emotional intelligence
+,Self-development,Positive thinking
+,Self-development,Optimism
+,Self-development,Gratitude
+,Self-development,Mindset
+,Self-development,Adaptability
+,Self-development,Flexibility
+,Self-development,Creativity
+,Self-development,Innovation
+,Self-development,Problem-solving
+,Self-development,Critical thinking
+,Self-development,Decision-making
+,Self-development,Time management
+,Self-development,Productivity
+,Self-development,Focus
+,Self-development,Concentration
+,Self-development,Organization
+,Self-development,Planning
+,Self-development,Reflection
+,Self-development,Journaling
+,Self-development,Self-care
+,Self-development,Healthy habits
+,Self-development,Exercise
+,Self-development,Nutrition
+,Self-development,Sleep
+,Self-development,Hydration
+,Self-development,Balance
+,Self-development,Boundaries
+,Self-development,Assertiveness
+,Self-development,Communication
+,Self-development,Listening skills
+,Self-development,Empathy
+,Self-development,Relationships
+,Self-development,Networking
+,Self-development,Collaboration
+,Self-development,Leadership
+,Self-development,Influence
+,Self-development,Mentorship
+,Self-development,Coaching
+,Self-development,Role model
+,Self-development,Personal brand
+,Self-development,Career development
+,Self-development,Professional growth
+,Self-development,Skill development
+,Self-development,Continuous learning
+,Self-development,Lifelong learning
+,Self-development,Education
+,Self-development,Training
+,Self-development,Courses
+,Self-development,Workshops
+,Self-development,Seminars
+,Self-development,Conferences
+,Self-development,Webinars
+,Self-development,Podcasts
+,Self-development,Books
+,Self-development,Articles
+,Self-development,Blogs
+,Self-development,Videos
+,Self-development,TED Talks
+,Self-development,Inspirational quotes
+,Self-development,Motivational speakers
+,Self-development,Self-help
+,Self-development,Self-discovery exercises
+,Self-development,Personality assessments
+,Self-development,Strengths
+,Self-development,Weaknesses
+,Self-development,Opportunities
+,Self-development,Challenges
+,Self-development,Resilience-building activities
+,Self-development,Personal growth journey
+,Self-development,Transformation
+,,
+,,
+,,
+4,Grooming,Haircut
+,Grooming,Hairstyle
+,Grooming,Shampoo
+,Grooming,Conditioner
+,Grooming,Hairbrush
+,Grooming,Comb
+,Grooming,Hair gel
+,Grooming,Hair spray
+,Grooming,Hair dye
+,Grooming,Hair treatment
+,Grooming,Beard
+,Grooming,Shaving
+,Grooming,Razor
+,Grooming,Shaving cream
+,Grooming,Beard oil
+,Grooming,Beard balm
+,Grooming,Mustache
+,Grooming,Trimming
+,Grooming,Grooming kit
+,Grooming,Barbershop
+,Grooming,Salon
+,Grooming,Stylist
+,Grooming,Barber
+,Grooming,Hair salon
+,Grooming,Beauty salon
+,Grooming,Spa
+,Grooming,Facial
+,Grooming,Skincare
+,Grooming,Cleanser
+,Grooming,Moisturizer
+,Grooming,Exfoliator
+,Grooming,Face mask
+,Grooming,Toner
+,Grooming,Serum
+,Grooming,Sunscreen
+,Grooming,Lip balm
+,Grooming,Eye cream
+,Grooming,Grooming routine
+,Grooming,Personal hygiene
+,Grooming,Bathing
+,Grooming,Showering
+,Grooming,Body wash
+,Grooming,Soap
+,Grooming,Bath sponge
+,Grooming,Loofah
+,Grooming,Towel
+,Grooming,Deodorant
+,Grooming,Antiperspirant
+,Grooming,Perfume
+,Grooming,Cologne
+,Grooming,Fragrance
+,Grooming,Scent
+,Grooming,Nail care
+,Grooming,Manicure
+,Grooming,Pedicure
+,Grooming,Nail polish
+,Grooming,Nail file
+,Grooming,Cuticle trimmer
+,Grooming,Nail clipper
+,Grooming,Nail salon
+,Grooming,Foot care
+,Grooming,Foot scrub
+,Grooming,Foot file
+,Grooming,Foot cream
+,Grooming,Callus remover
+,Grooming,Foot soak
+,Grooming,Foot massage
+,Grooming,Dental care
+,Grooming,Toothbrush
+,Grooming,Toothpaste
+,Grooming,Mouthwash
+,Grooming,Dental floss
+,Grooming,Tongue scraper
+,Grooming,Teeth whitening
+,Grooming,Breath freshener
+,Grooming,Oral hygiene
+,Grooming,Makeup
+,Grooming,Foundation
+,Grooming,Concealer
+,Grooming,Powder
+,Grooming,Blush
+,Grooming,Bronzer
+,Grooming,Highlighter
+,Grooming,Eyeshadow
+,Grooming,Eyeliner
+,Grooming,Mascara
+,Grooming,Lipstick
+,Grooming,Lip gloss
+,Grooming,Lip liner
+,Grooming,Makeup remover
+,Grooming,Brushes
+,Grooming,Sponges
+,Grooming,Applicators
+,Grooming,Beauty blender
+,Grooming,Tweezers
+,Grooming,Eyebrow grooming
+,Grooming,Eyebrow pencil
+,Grooming,Eyebrow gel
+,Grooming,Eyebrow shaping
+,Grooming,Eyebrow threading
+,,
+,,
+5,Family,Parents
+,Family,Children
+,Family,Siblings
+,Family,Mother
+,Family,Father
+,Family,Son
+,Family,Daughter
+,Family,Grandparents
+,Family,Grandfather
+,Family,Grandmother
+,Family,Grandchild
+,Family,Grandson
+,Family,Granddaughter
+,Family,Aunt
+,Family,Uncle
+,Family,Niece
+,Family,Nephew
+,Family,Cousin
+,Family,Extended family
+,Family,Immediate family
+,Family,Nuclear family
+,Family,Single-parent family
+,Family,Blended family
+,Family,Adoptive family
+,Family,Foster family
+,Family,Stepfamily
+,Family,Family tree
+,Family,Family reunion
+,Family,Family traditions
+,Family,Family values
+,Family,Family bonding
+,Family,Family support
+,Family,Family love
+,Family,Family time
+,Family,Family dinner
+,Family,Family outing
+,Family,Family vacation
+,Family,Family celebration
+,Family,Family milestones
+,Family,Family responsibilities
+,Family,Family roles
+,Family,Family dynamics
+,Family,Family communication
+,Family,Family conflicts
+,Family,Family harmony
+,Family,Family unity
+,Family,Family rituals
+,Family,Family stories
+,Family,Family history
+,Family,Family lineage
+,Family,Family heritage
+,Family,Family legacy
+,Family,Family album
+,Family,Family photographs
+,Family,Family traditions
+,Family,Family values
+,Family,Family bonding
+,Family,Family support
+,Family,Family love
+,Family,Family time
+,Family,Family dinner
+,Family,Family outing
+,Family,Family vacation
+,Family,Family celebration
+,Family,Family milestones
+,Family,Family responsibilities
+,Family,Family roles
+,Family,Family dynamics
+,Family,Family communication
+,Family,Family conflicts
+,Family,Family harmony
+,Family,Family unity
+,Family,Family rituals
+,Family,Family stories
+,Family,Family history
+,Family,Family lineage
+,Family,Family heritage
+,Family,Family legacy
+,Family,Family album
+,Family,Family photographs
+,Family,Family traditions
+,Family,Family values
+,Family,Family bonding
+,Family,Family support
+,Family,Family love
+,Family,Family time
+,Family,Family dinner
+,Family,Family outing
+,Family,Family vacation
+,Family,Family celebration
+,Family,Family milestones
+,Family,Family responsibilities
+,Family,Family roles
+,Family,Family dynamics
+,Family,Family communication
+,Family,Family conflicts
+,Family,Family harmony
+,Family,Family unity
+,Family,Family rituals
+,Family,Family stories
+,,
+6,Social Life,Friends
+,Social Life,Friendship
+,Social Life,Socializing
+,Social Life,Gathering
+,Social Life,Party
+,Social Life,Get-together
+,Social Life,Reunion
+,Social Life,Hangout
+,Social Life,Social event
+,Social Life,Social circle
+,Social Life,Networking
+,Social Life,Connection
+,Social Life,Bonding
+,Social Life,Camaraderie
+,Social Life,Companionship
+,Social Life,Interaction
+,Social Life,Conversation
+,Social Life,Communication
+,Social Life,Engagement
+,Social Life,Meeting
+,Social Life,Mixer
+,Social Life,Brunch
+,Social Life,Dinner party
+,Social Life,Barbecue
+,Social Life,Picnic
+,Social Life,Potluck
+,Social Life,Happy hour
+,Social Life,Clubbing
+,Social Life,Night out
+,Social Life,Pub
+,Social Life,Bar
+,Social Life,Lounge
+,Social Life,Cafe
+,Social Life,Coffee shop
+,Social Life,Restaurant
+,Social Life,Movie night
+,Social Life,Game night
+,Social Life,Concert
+,Social Life,Festival
+,Social Life,Event
+,Social Life,Gathering spot
+,Social Life,Socializing space
+,Social Life,Gathering place
+,Social Life,Social club
+,Social Life,Sports club
+,Social Life,Hobby group
+,Social Life,Book club
+,Social Life,Volunteer group
+,Social Life,Community organization
+,Social Life,Neighborhood association
+,Social Life,Team
+,Social Life,Squad
+,Social Life,Crew
+,Social Life,Tribe
+,Social Life,Peer group
+,Social Life,Inner circle
+,Social Life,Close friends
+,Social Life,Best friends
+,Social Life,Acquaintances
+,Social Life,Colleagues
+,Social Life,Coworkers
+,Social Life,Classmates
+,Social Life,Schoolmates
+,Social Life,Roommates
+,Social Life,Teammates
+,Social Life,Partners
+,Social Life,Significant other
+,Social Life,Spouse
+,Social Life,Family
+,Social Life,Relatives
+,Social Life,Cousins
+,Social Life,Siblings
+,Social Life,Parents
+,Social Life,Grandparents
+,Social Life,Children
+,Social Life,Offspring
+,Social Life,Next of kin
+,Social Life,In-laws
+,Social Life,Extended family
+,Social Life,Kinship
+,Social Life,Family reunion
+,Social Life,Family gathering
+,Social Life,Family dinner
+,Social Life,Family outing
+,Social Life,Family vacation
+,Social Life,Family tradition
+,Social Life,Family bond
+,Social Life,Family support
+,Social Life,Family values
+,Social Life,Family time
+,Social Life,Social support
+,Social Life,Emotional support
+,Social Life,Listening ear
+,Social Life,Shoulder to lean on
+,Social Life,Advice
+,Social Life,Encouragement
+,Social Life,Celebration
+,Social Life,Milestone
+,Social Life,Special occasion
+,Social Life,Togetherness
+,,
+7,Transportation,Car
+,Transportation,Vehicle
+,Transportation,Automobile
+,Transportation,Truck
+,Transportation,Motorcycle
+,Transportation,Bicycle
+,Transportation,Scooter
+,Transportation,Bus
+,Transportation,Coach
+,Transportation,Van
+,Transportation,Minivan
+,Transportation,SUV (Sport Utility Vehicle)
+,Transportation,Sedan
+,Transportation,Convertible
+,Transportation,Coupe
+,Transportation,Hatchback
+,Transportation,Station wagon
+,Transportation,Pickup truck
+,Transportation,Trailer
+,Transportation,RV (Recreational Vehicle)
+,Transportation,Camper
+,Transportation,Motorhome
+,Transportation,Trailer truck
+,Transportation,Semi-truck
+,Transportation,Tanker truck
+,Transportation,Delivery truck
+,Transportation,Cargo van
+,Transportation,Ambulance
+,Transportation,Fire truck
+,Transportation,Police car
+,Transportation,Taxi
+,Transportation,Cab
+,Transportation,Ride-sharing
+,Transportation,Uber
+,Transportation,Lyft
+,Transportation,Limousine
+,Transportation,Limo
+,Transportation,Airport shuttle
+,Transportation,Shuttle bus
+,Transportation,Trolley
+,Transportation,Tram
+,Transportation,Streetcar
+,Transportation,Light rail
+,Transportation,Train
+,Transportation,Subway
+,Transportation,Metro
+,Transportation,Commuter rail
+,Transportation,High-speed rail
+,Transportation,Bullet train
+,Transportation,Monorail
+,Transportation,Cable car
+,Transportation,Gondola
+,Transportation,Ferry
+,Transportation,Water taxi
+,Transportation,Cruise ship
+,Transportation,Yacht
+,Transportation,Sailboat
+,Transportation,Speedboat
+,Transportation,Jet ski
+,Transportation,Kayak
+,Transportation,Canoe
+,Transportation,Raft
+,Transportation,Hovercraft
+,Transportation,Airplane
+,Transportation,Aircraft
+,Transportation,Helicopter
+,Transportation,Drone
+,Transportation,Glider
+,Transportation,Paraglider
+,Transportation,Hang glider
+,Transportation,Hot air balloon
+,Transportation,Blimp
+,Transportation,Zeppelin
+,Transportation,Segway
+,Transportation,Electric scooter
+,Transportation,Electric bike
+,Transportation,Electric skateboard
+,Transportation,Electric unicycle
+,Transportation,Electric car
+,Transportation,Hybrid car
+,Transportation,Hydrogen car
+,Transportation,Autonomous vehicle
+,Transportation,Self-driving car
+,Transportation,Carpool
+,Transportation,Car rental
+,Transportation,Car sharing
+,Transportation,Bike sharing
+,Transportation,Scooter sharing
+,Transportation,Public transportation
+,Transportation,Mass transit
+,Transportation,Commute
+,Transportation,Traffic
+,Transportation,Congestion
+,Transportation,Highway
+,Transportation,Freeway
+,Transportation,Toll road
+,Transportation,Expressway
+,Transportation,Lane
+,Transportation,Intersection
+,Transportation,Roundabout
+,,
+8,Documents,Paperwork
+,Documents,Document
+,Documents,Paper
+,Documents,Form
+,Documents,Application
+,Documents,Contract
+,Documents,Agreement
+,Documents,Certificate
+,Documents,License
+,Documents,Permit
+,Documents,Passport
+,Documents,Visa
+,Documents,Identification
+,Documents,ID card
+,Documents,Driver's license
+,Documents,Birth certificate
+,Documents,Marriage certificate
+,Documents,Divorce decree
+,Documents,Adoption papers
+,Documents,Social Security card
+,Documents,Green card
+,Documents,Work permit
+,Documents,Residency permit
+,Documents,Citizenship certificate
+,Documents,Diploma
+,Documents,Transcript
+,Documents,Report card
+,Documents,Degree
+,Documents,Academic record
+,Documents,Enrollment form
+,Documents,Registration form
+,Documents,Insurance policy
+,Documents,Health insurance card
+,Documents,Medical records
+,Documents,Prescription
+,Documents,Referral
+,Documents,Doctor's note
+,Documents,Hospital discharge papers
+,Documents,Medical consent form
+,Documents,Advance directive
+,Documents,Power of attorney
+,Documents,Will
+,Documents,Trust document
+,Documents,Deed
+,Documents,Title
+,Documents,Lease agreement
+,Documents,Rental contract
+,Documents,Mortgage documents
+,Documents,Loan agreement
+,Documents,Promissory note
+,Documents,Invoice
+,Documents,Receipt
+,Documents,Tax return
+,Documents,W-2 form
+,Documents,1099 form
+,Documents,Tax deduction form
+,Documents,Tax credit form
+,Documents,Tax exemption form
+,Documents,Tax assessment
+,Documents,Tax bill
+,Documents,Tax assessment notice
+,Documents,Tax payment confirmation
+,Documents,Tax refund claim
+,Documents,Tax audit report
+,Documents,Tax appeal form
+,Documents,Bank statement
+,Documents,Account statement
+,Documents,Financial statement
+,Documents,Balance sheet
+,Documents,Income statement
+,Documents,Expense report
+,Documents,Budget
+,Documents,Pay stub
+,Documents,Employment contract
+,Documents,Offer letter
+,Documents,Non-disclosure agreement
+,Documents,Confidentiality agreement
+,Documents,Employment verification letter
+,Documents,Reference letter
+,Documents,Recommendation letter
+,Documents,Performance evaluation
+,Documents,Disciplinary action report
+,Documents,Termination letter
+,Documents,Severance agreement
+,Documents,Retirement plan document
+,Documents,Pension plan document
+,Documents,Investment agreement
+,Documents,Shareholder agreement
+,Documents,Partnership agreement
+,Documents,Non-compete agreement
+,Documents,Intellectual property agreement
+,Documents,Copyright registration
+,Documents,Patent application
+,Documents,Trademark certificate
+,Documents,Licensing agreement
+,Documents,Distribution agreement
+,Documents,Franchise agreement
+,Documents,Service agreement
+,Documents,Terms of service
+,Documents,Privacy policy
+,,
+9,Food,Meal
+,Food,Dish
+,Food,Cuisine
+,Food,Recipe
+,Food,Cooking
+,Food,Baking
+,Food,Grilling
+,Food,Roasting
+,Food,Frying
+,Food,Boiling
+,Food,Steaming
+,Food,Sauteing
+,Food,Stir-frying
+,Food,Braising
+,Food,Broiling
+,Food,Marinating
+,Food,Seasoning
+,Food,Spices
+,Food,Herbs
+,Food,Condiments
+,Food,Sauce
+,Food,Dressing
+,Food,Marinade
+,Food,Garnish
+,Food,Appetizer
+,Food,Starter
+,Food,Salad
+,Food,Soup
+,Food,Main course
+,Food,Entree
+,Food,Side dish
+,Food,Vegetable
+,Food,Fruit
+,Food,Protein
+,Food,Meat
+,Food,Poultry
+,Food,Chicken
+,Food,Beef
+,Food,Pork
+,Food,Lamb
+,Food,Seafood
+,Food,Fish
+,Food,Shellfish
+,Food,Shrimp
+,Food,Crab
+,Food,Lobster
+,Food,Mussel
+,Food,Clam
+,Food,Oyster
+,Food,Scallop
+,Food,Pasta
+,Food,Noodle
+,Food,Rice
+,Food,Grain
+,Food,Bread
+,Food,Sandwich
+,Food,Wrap
+,Food,Burger
+,Food,Pizza
+,Food,Taco
+,Food,Burrito
+,Food,Quesadilla
+,Food,Sushi
+,Food,Roll
+,Food,Sashimi
+,Food,Tempura
+,Food,Curry
+,Food,Stir-fry
+,Food,Stew
+,Food,Casserole
+,Food,Risotto
+,Food,Paella
+,Food,Pilaf
+,Food,Quiche
+,Food,Omelette
+,Food,Pancake
+,Food,Waffle
+,Food,Crepe
+,Food,Frittata
+,Food,Souffle
+,Food,Mousse
+,Food,Pudding
+,Food,Custard
+,Food,Parfait
+,Food,Trifle
+,Food,Tart
+,Food,Pie
+,Food,Cake
+,Food,Cupcake
+,Food,Brownie
+,Food,Cookie
+,Food,Biscuit
+,Food,Muffin
+,Food,Donut
+,Food,Pastry
+,Food,Croissant
+,Food,Danish
+,Food,Bagel
+,Food,Pretzel
+,Food,Breadstick
+,Food,Breakfast
+,Food,Brunch
+,Food,Lunch
+,Food,Dinner
+,Food,Snack
+,Food,Dessert
+,Food,Sweet
+,Food,Savory
+,Food,Spicy
+,Food,Mild
+,Food,Tangy
+,Food,Sour
+,Food,Bitter
+,Food,Salty
+,Food,Umami
+,Food,Fresh
+,Food,Raw
+,Food,Cooked
+,Food,Grilled
+,Food,Steamed
+,Food,Baked
+,Food,Fried
+,Food,Deep-fried
+,Food,Boiled
+,Food,Poached
+,Food,Roasted
+,Food,Braised
+,Food,Smoked
+,Food,Cured
+,Food,Fermented
+,Food,Pickled
+,Food,Preserved
+,Food,Canned
+,Food,Frozen
+,Food,Dehydrated
+,Food,Dried
+,Food,Freshly-prepared
+,Food,Homemade
+,Food,Handmade
+,Food,Artisanal
+,Food,Gourmet
+,Food,Organic
+,Food,Locally-sourced
+,Food,Sustainable
+,Food,Seasonal
+,Food,Farm-fresh
+,Food,Garden-fresh
+,Food,Free-range
+,Food,Grass-fed
+,Food,Cage-free
+,Food,Ethically-sourced
+,Food,Fair trade
+,Food,Vegan
+,Food,Vegetarian
+,Food,Plant-based
+,Food,Gluten-free
+,Food,Dairy-free
+,Food,Nut-free
+,Food,Allergy-friendly
+,Food,Low-carb
+,Food,Low-fat
+,Food,Low-calorie
+,Food,High-protein
+,Food,High-fiber
+,Food,Low-sodium
+,Food,Sugar-free
+,Food,Keto-friendly
+,Food,Paleo-friendly
+,Food,Mediterranean
+,,
+10,Apparel,Clothing
+,Apparel,Apparel
+,Apparel,Garment
+,Apparel,Fashion
+,Apparel,Style
+,Apparel,Trend
+,Apparel,Wardrobe
+,Apparel,Outfit
+,Apparel,Ensemble
+,Apparel,Attire
+,Apparel,Dress
+,Apparel,Suit
+,Apparel,Jacket
+,Apparel,Coat
+,Apparel,Shirt
+,Apparel,Blouse
+,Apparel,T-shirt
+,Apparel,Top
+,Apparel,Sweater
+,Apparel,Cardigan
+,Apparel,Pullover
+,Apparel,Hoodie
+,Apparel,Sweatshirt
+,Apparel,Vest
+,Apparel,Tank top
+,Apparel,Camisole
+,Apparel,Polo shirt
+,Apparel,Blazer
+,Apparel,Waistcoat
+,Apparel,Tunic
+,Apparel,Skirt
+,Apparel,Dress pants
+,Apparel,Trousers
+,Apparel,Jeans
+,Apparel,Denim
+,Apparel,Leggings
+,Apparel,Shorts
+,Apparel,Capris
+,Apparel,Culottes
+,Apparel,Jumpsuit
+,Apparel,Romper
+,Apparel,Overalls
+,Apparel,Dress suit
+,Apparel,Evening gown
+,Apparel,Cocktail dress
+,Apparel,Formal attire
+,Apparel,Ball gown
+,Apparel,Wedding dress
+,Apparel,Bridesmaid dress
+,Apparel,Prom dress
+,Apparel,Quinceañera dress
+,Apparel,Tailored suit
+,Apparel,Business attire
+,Apparel,Casual wear
+,Apparel,Lounge wear
+,Apparel,Athleisure
+,Apparel,Activewear
+,Apparel,Workout clothes
+,Apparel,Yoga pants
+,Apparel,Sports bra
+,Apparel,Swimwear
+,Apparel,Bikini
+,Apparel,One-piece swimsuit
+,Apparel,Swim trunks
+,Apparel,Rash guard
+,Apparel,Cover-up
+,Apparel,Beachwear
+,Apparel,Lingerie
+,Apparel,Bra
+,Apparel,Panties
+,Apparel,Thong
+,Apparel,Briefs
+,Apparel,Boxers
+,Apparel,Boxer briefs
+,Apparel,Shapewear
+,Apparel,Corset
+,Apparel,Girdle
+,Apparel,Spanx
+,Apparel,Hosiery
+,Apparel,Socks
+,Apparel,Stockings
+,Apparel,Tights
+,Apparel,Leg warmers
+,Apparel,Arm warmers
+,Apparel,Gloves
+,Apparel,Mittens
+,Apparel,Scarf
+,Apparel,Shawl
+,Apparel,Wrap
+,Apparel,Poncho
+,Apparel,Cape
+,Apparel,Hat
+,Apparel,Cap
+,Apparel,Beanie
+,Apparel,Beret
+,Apparel,Fedora
+,Apparel,Sun hat
+,Apparel,Visor
+,Apparel,Headband
+,Apparel,Hair accessory
+,,
+11,Household,Home
+,Household,House
+,Household,Residence
+,Household,Dwelling
+,Household,Abode
+,Household,Living space
+,Household,Household
+,Household,Family
+,Household,Homeowner
+,Household,Renter
+,Household,Landlord
+,Household,Tenant
+,Household,Property
+,Household,Real estate
+,Household,Mortgage
+,Household,Rent
+,Household,Lease
+,Household,Apartment
+,Household,House
+,Household,Condominium
+,Household,Townhouse
+,Household,Duplex
+,Household,Villa
+,Household,Bungalow
+,Household,Cottage
+,Household,Manor
+,Household,Mansion
+,Household,Ranch
+,Household,Farmhouse
+,Household,Cabin
+,Household,Mobile home
+,Household,Trailer
+,Household,Studio
+,Household,Loft
+,Household,Basement
+,Household,Attic
+,Household,Bedroom
+,Household,Master bedroom
+,Household,Guest room
+,Household,Children's room
+,Household,Nursery
+,Household,Bathroom
+,Household,Shower
+,Household,Bathtub
+,Household,Toilet
+,Household,Sink
+,Household,Vanity
+,Household,Mirror
+,Household,Towel
+,Household,Toilet paper
+,Household,Soap
+,Household,Shampoo
+,Household,Conditioner
+,Household,Toothbrush
+,Household,Toothpaste
+,Household,Floss
+,Household,Bedroom
+,Household,Bed
+,Household,Mattress
+,Household,Pillow
+,Household,Blanket
+,Household,Sheet
+,Household,Comforter
+,Household,Quilt
+,Household,Closet
+,Household,Wardrobe
+,Household,Dresser
+,Household,Nightstand
+,Household,Bedside table
+,Household,Alarm clock
+,Household,Living room
+,Household,Sofa
+,Household,Couch
+,Household,Armchair
+,Household,Recliner
+,Household,Coffee table
+,Household,End table
+,Household,TV stand
+,Household,Entertainment center
+,Household,Bookcase
+,Household,Bookshelf
+,Household,Lamp
+,Household,Floor lamp
+,Household,Table lamp
+,Household,Desk
+,Household,Office chair
+,Household,Computer
+,Household,Printer
+,Household,Scanner
+,Household,File cabinet
+,Household,Kitchen
+,Household,Stove
+,Household,Oven
+,Household,Microwave
+,Household,Refrigerator
+,Household,Freezer
+,Household,Dishwasher
+,Household,Sink
+,Household,Countertop
+,Household,Cabinet
+,,
+12,Festivals,Celebration
+,Festivals,Festivity
+,Festivals,Event
+,Festivals,Holiday
+,Festivals,Tradition
+,Festivals,Custom
+,Festivals,Ritual
+,Festivals,Ceremony
+,Festivals,Parade
+,Festivals,Carnival
+,Festivals,Fair
+,Festivals,Fete
+,Festivals,Gathering
+,Festivals,Reunion
+,Festivals,Gala
+,Festivals,Party
+,Festivals,Ceremony
+,Festivals,Religious
+,Festivals,Cultural
+,Festivals,National
+,Festivals,Local
+,Festivals,International
+,Festivals,Seasonal
+,Festivals,Annual
+,Festivals,Occasion
+,Festivals,Commemoration
+,Festivals,Jubilee
+,Festivals,Mela
+,Festivals,Mardi Gras
+,Festivals,Diwali
+,Festivals,Christmas
+,Festivals,Easter
+,Festivals,Hanukkah
+,Festivals,Ramadan
+,Festivals,Eid
+,Festivals,Lunar New Year
+,Festivals,Thanksgiving
+,Festivals,Halloween
+,Festivals,Independence Day
+,Festivals,New Year's Eve
+,Festivals,Valentine's Day
+,Festivals,St. Patrick's Day
+,Festivals,Labor Day
+,Festivals,Memorial Day
+,Festivals,Veterans Day
+,Festivals,Bastille Day
+,Festivals,Oktoberfest
+,Festivals,Cinco de Mayo
+,Festivals,Bonfire Night
+,Festivals,Kwanzaa
+,Festivals,Yom Kippur
+,Festivals,Rosh Hashanah
+,Festivals,Passover
+,Festivals,Holi
+,Festivals,Navratri
+,Festivals,Durga Puja
+,Festivals,Ganesh Chaturthi
+,Festivals,Onam
+,Festivals,Pongal
+,Festivals,Baisakhi
+,Festivals,Vesak
+,Festivals,Christmas Eve
+,Festivals,New Year's Day
+,Festivals,Boxing Day
+,Festivals,Labor Day
+,Festivals,May Day
+,Festivals,Bank Holiday
+,Festivals,Festival of Lights
+,Festivals,Harvest Festival
+,Festivals,Music Festival
+,Festivals,Film Festival
+,Festivals,Food Festival
+,Festivals,Wine Festival
+,Festivals,Beer Festival
+,Festivals,Art Festival
+,Festivals,Dance Festival
+,Festivals,Theater Festival
+,Festivals,Literature Festival
+,Festivals,Fashion Festival
+,Festivals,Flower Festival
+,Festivals,Fruit Festival
+,Festivals,Vegetable Festival
+,Festivals,Folk Festival
+,Festivals,Cultural Festival
+,Festivals,Ethnic Festival
+,Festivals,Heritage Festival
+,Festivals,Street Festival
+,Festivals,Fairground
+,Festivals,Midway
+,Festivals,Games
+,Festivals,Competitions
+,Festivals,Contests
+,Festivals,Performances
+,Festivals,Exhibitions
+,Festivals,Displays
+,Festivals,Fireworks
+,Festivals,Parades
+,Festivals,Processions
+,Festivals,Street parties
+,Festivals,Community events
+,,
+13,Money transfer,Money transfer
+,Money transfer,Transaction
+,Money transfer,Payment
+,Money transfer,Transfer
+,Money transfer,Remittance
+,Money transfer,Wire transfer
+,Money transfer,Electronic funds transfer
+,Money transfer,EFT
+,Money transfer,Bank transfer
+,Money transfer,Direct deposit
+,Money transfer,ACH transfer
+,Money transfer,Online transfer
+,Money transfer,Mobile transfer
+,Money transfer,Digital wallet
+,Money transfer,Peer-to-peer transfer
+,Money transfer,P2P transfer
+,Money transfer,Money order
+,Money transfer,Cashier's check
+,Money transfer,Certified check
+,Money transfer,Personal check
+,Money transfer,Cheque
+,Money transfer,Withdrawal
+,Money transfer,Deposit
+,Money transfer,Sending money
+,Money transfer,Receiving money
+,Money transfer,Sending funds
+,Money transfer,Receiving funds
+,Money transfer,International transfer
+,Money transfer,Cross-border transfer
+,Money transfer,Domestic transfer
+,Money transfer,Instant transfer
+,Money transfer,Same-day transfer
+,Money transfer,Swift transfer
+,Money transfer,SEPA transfer
+,Money transfer,Real-time transfer
+,Money transfer,Currency exchange
+,Money transfer,Exchange rate
+,Money transfer,Forex
+,Money transfer,Foreign exchange
+,Money transfer,Conversion fee
+,Money transfer,Remittance fee
+,Money transfer,Service fee
+,Money transfer,Transfer fee
+,Money transfer,Bank fee
+,Money transfer,Commission
+,Money transfer,Fee-free transfer
+,Money transfer,Low-cost transfer
+,Money transfer,High-cost transfer
+,Money transfer,Rapid transfer
+,Money transfer,Speedy transfer
+,Money transfer,Secure transfer
+,Money transfer,Safe transfer
+,Money transfer,Fraud protection
+,Money transfer,Authentication
+,Money transfer,Verification
+,Money transfer,Identity confirmation
+,Money transfer,Two-factor authentication
+,Money transfer,Secure socket layer (SSL)
+,Money transfer,Encryption
+,Money transfer,Password protection
+,Money transfer,PIN
+,Money transfer,Biometric authentication
+,Money transfer,Fingerprint scan
+,Money transfer,Iris scan
+,Money transfer,Face recognition
+,Money transfer,Security question
+,Money transfer,Account number
+,Money transfer,Routing number
+,Money transfer,IBAN
+,Money transfer,SWIFT code
+,Money transfer,BIC code
+,Money transfer,Beneficiary
+,Money transfer,Sender
+,Money transfer,Recipient
+,Money transfer,Payee
+,Money transfer,Sender's bank
+,Money transfer,Recipient's bank
+,Money transfer,Intermediary bank
+,Money transfer,Correspondent bank
+,Money transfer,Payment gateway
+,Money transfer,Third-party payment processor
+,Money transfer,Payment service provider
+,Money transfer,Digital payment platform
+,Money transfer,Mobile payment app
+,Money transfer,Payment network
+,Money transfer,Settlement
+,Money transfer,Clearing
+,Money transfer,Batch processing
+,Money transfer,Real-time settlement
+,Money transfer,Delayed settlement
+,Money transfer,Payment confirmation
+,Money transfer,Transaction history
+,Money transfer,Account balance
+,Money transfer,Account statement
+,Money transfer,Account activity
+,Money transfer,Account holder
+,Money transfer,Authorized user
+,Money transfer,Account owner
+,Money transfer,Account signatory
+,Money transfer,Financial institution
+,,
+,,
+14,Investment,Investment
+,Investment,Portfolio
+,Investment,Asset
+,Investment,Securities
+,Investment,Stocks
+,Investment,Bonds
+,Investment,Mutual funds
+,Investment,Exchange-traded funds (ETFs)
+,Investment,Real estate
+,Investment,Property
+,Investment,Equity
+,Investment,Fixed income
+,Investment,Commodities
+,Investment,Precious metals
+,Investment,Gold
+,Investment,Silver
+,Investment,Platinum
+,Investment,Palladium
+,Investment,Oil
+,Investment,Natural gas
+,Investment,Agricultural commodities
+,Investment,Wheat
+,Investment,Corn
+,Investment,Soybeans
+,Investment,Livestock
+,Investment,Currencies
+,Investment,Foreign exchange (Forex)
+,Investment,Cryptocurrency
+,Investment,Bitcoin
+,Investment,Ethereum
+,Investment,Ripple
+,Investment,Litecoin
+,Investment,Initial Public Offering (IPO)
+,Investment,Initial Coin Offering (ICO)
+,Investment,Securities market
+,Investment,Stock market
+,Investment,Bond market
+,Investment,Commodity market
+,Investment,Foreign exchange market
+,Investment,Cryptocurrency market
+,Investment,Bull market
+,Investment,Bear market
+,Investment,Volatility
+,Investment,Risk
+,Investment,Return
+,Investment,Yield
+,Investment,Dividends
+,Investment,Capital gains
+,Investment,Interest
+,Investment,Coupon
+,Investment,Coupon rate
+,Investment,Maturity
+,Investment,Liquidity
+,Investment,Diversification
+,Investment,Asset allocation
+,Investment,Risk tolerance
+,Investment,Investment strategy
+,Investment,Buy-and-hold
+,Investment,Value investing
+,Investment,Growth investing
+,Investment,Income investing
+,Investment,Dividend investing
+,Investment,Momentum investing
+,Investment,Contrarian investing
+,Investment,Active investing
+,Investment,Passive investing
+,Investment,Index investing
+,Investment,Dollar-cost averaging
+,Investment,Systematic investment plan (SIP)
+,Investment,Lump-sum investment
+,Investment,Systematic withdrawal plan (SWP)
+,Investment,Rebalancing
+,Investment,Asset classes
+,Investment,Capital appreciation
+,Investment,Capital preservation
+,Investment,Wealth management
+,Investment,Financial planning
+,Investment,Retirement planning
+,Investment,Tax planning
+,Investment,Estate planning
+,Investment,Risk management
+,Investment,Investment advisor
+,Investment,Financial advisor
+,Investment,Brokerage
+,Investment,Investment bank
+,Investment,Fund manager
+,Investment,Hedge fund
+,Investment,Venture capital
+,Investment,Private equity
+,Investment,Angel investing
+,Investment,Crowdfunding
+,Investment,Peer-to-peer lending
+,Investment,Real estate investment trust (REIT)
+,Investment,Unit trust
+,Investment,Sovereign wealth fund
+,Investment,Pension fund
+,Investment,Endowment fund
+,Investment,Annuity
+,Investment,401(k)
+,Investment,Individual Retirement Account (IRA)
+,,
+,,
+15,Gift,Gift
+,Gift,Present
+,Gift,Presenting
+,Gift,Giving
+,Gift,Offering
+,Gift,Bestowal
+,Gift,Donation
+,Gift,Contribution
+,Gift,Token
+,Gift,Offering
+,Gift,Gesture
+,Gift,Souvenir
+,Gift,Memento
+,Gift,Keepsake
+,Gift,Trinket
+,,
+16,Tourism,Tourism
+,Tourism,Travel
+,Tourism,Vacation
+,Tourism,Holiday
+,Tourism,Journey
+,Tourism,Adventure
+,Tourism,Trip
+,Tourism,Excursion
+,Tourism,Expedition
+,Tourism,Exploration
+,Tourism,Sightseeing
+,Tourism,Tour
+,Tourism,Traveler
+,Tourism,Tourist
+,Tourism,Visitor
+,Tourism,Backpacking
+,Tourism,Hiking
+,Tourism,Trekking
+,Tourism,Camping
+,Tourism,Mountaineering
+,Tourism,Climbing
+,Tourism,Cycling
+,Tourism,Biking
+,Tourism,Road trip
+,Tourism,Cruise
+,Tourism,Sailing
+,Tourism,Yachting
+,Tourism,Boating
+,Tourism,Rafting
+,Tourism,Canoeing
+,Tourism,Kayaking
+,Tourism,Snorkeling
+,Tourism,Diving
+,Tourism,Surfing
+,Tourism,Beachcombing
+,Tourism,Wildlife watching
+,Tourism,Safari
+,Tourism,Wildlife photography
+,Tourism,Birdwatching
+,Tourism,Ecotourism
+,Tourism,Nature tourism
+,Tourism,Sustainable tourism
+,Tourism,Responsible travel
+,Tourism,Cultural tourism
+,Tourism,Heritage tourism
+,Tourism,Historical sites
+,Tourism,Landmarks
+,Tourism,Monuments
+,Tourism,Museums
+,Tourism,Galleries
+,Tourism,Artifacts
+,Tourism,Archaeological sites
+,Tourism,Architecture
+,Tourism,Temples
+,Tourism,Palaces
+,Tourism,Castles
+,Tourism,Forts
+,Tourism,Ruins
+,Tourism,Churches
+,Tourism,Cathedrals
+,Tourism,Synagogues
+,Tourism,Mosques
+,Tourism,Markets
+,Tourism,Bazaars
+,Tourism,Souvenirs
+,Tourism,Handicrafts
+,Tourism,Local cuisine
+,Tourism,Street food
+,Tourism,Food tours
+,Tourism,Wine tasting
+,Tourism,Culinary experiences
+,Tourism,Cooking classes
+,Tourism,Farm visits
+,Tourism,Agrotourism
+,Tourism,Agritourism
+,Tourism,Vineyard tours
+,Tourism,Wine trails
+,Tourism,Brewery tours
+,Tourism,Beer tasting
+,Tourism,Distillery visits
+,Tourism,Spirits tasting
+,Tourism,Festivals
+,Tourism,Events
+,Tourism,Parades
+,Tourism,Carnivals
+,Tourism,Fairs
+,Tourism,Concerts
+,Tourism,Music festivals
+,Tourism,Film festivals
+,Tourism,Cultural celebrations
+,Tourism,Seasonal events
+,Tourism,Sporting events
+,Tourism,Adventure sports
+,Tourism,Extreme sports
+,Tourism,Skiing
+,Tourism,Snowboarding
+,Tourism,Snowshoeing
+,Tourism,Dog sledding
+,Tourism,Ice climbing
+,Tourism,Snowmobiling
+,,
+,,
+,,
+17,Health,Health
+,Health,Wellness
+,Health,Fitness
+,Health,Well-being
+,Health,Physical health
+,Health,Mental health
+,Health,Emotional health
+,Health,Psychological health
+,Health,Holistic health
+,Health,Lifestyle
+,Health,Nutrition
+,Health,Diet
+,Health,Exercise
+,Health,Physical activity
+,Health,Workout
+,Health,Training
+,Health,Gym
+,Health,Fitness center
+,Health,Strength training
+,Health,Cardiovascular exercise
+,Health,Aerobics
+,Health,Yoga
+,Health,Pilates
+,Health,Stretching
+,Health,Flexibility
+,Health,Mobility
+,Health,Endurance
+,Health,Muscle tone
+,Health,Weightlifting
+,Health,Resistance training
+,Health,CrossFit
+,Health,High-intensity interval training (HIIT)
+,Health,Functional training
+,Health,Bodyweight exercises
+,Health,Running
+,Health,Jogging
+,Health,Walking
+,Health,Hiking
+,Health,Cycling
+,Health,Biking
+,Health,Swimming
+,Health,Water aerobics
+,Health,Team sports
+,Health,Individual sports
+,Health,Outdoor activities
+,Health,Adventure sports
+,Health,Recreation
+,Health,Relaxation
+,Health,Stress management
+,Health,Meditation
+,Health,Mindfulness
+,Health,Deep breathing
+,Health,Relaxation techniques
+,Health,Sleep
+,Health,Rest
+,Health,Recovery
+,Health,Sleep hygiene
+,Health,Sleep quality
+,Health,Sleep duration
+,Health,Circadian rhythm
+,Health,Sleep disorders
+,Health,Insomnia
+,Health,Sleep apnea
+,Health,Narcolepsy
+,Health,Parasomnias
+,Health,Nutrition
+,Health,Balanced diet
+,Health,Healthy eating
+,Health,Nutrient-dense foods
+,Health,Whole foods
+,Health,Fruits
+,Health,Vegetables
+,Health,Grains
+,Health,Protein
+,Health,Lean meats
+,Health,Poultry
+,Health,Fish
+,Health,Seafood
+,Health,Legumes
+,Health,Nuts
+,Health,Seeds
+,Health,Dairy
+,Health,Calcium
+,Health,Iron
+,Health,Vitamins
+,Health,Minerals
+,Health,Fiber
+,Health,Antioxidants
+,Health,Hydration
+,Health,Water intake
+,Health,Beverages
+,Health,Herbal tea
+,Health,Green tea
+,Health,Coffee
+,Health,Energy drinks
+,Health,Sugary drinks
+,Health,Alcohol
+,Health,Moderation
+,Health,Portion control
+,Health,Healthy habits
+,,
+,,
+18,Entertainment,Entertainment
+,Entertainment,Amusement
+,Entertainment,Fun
+,Entertainment,Enjoyment
+,Entertainment,Recreation
+,Entertainment,Leisure
+,Entertainment,Pastime
+,Entertainment,Diversion
+,Entertainment,Pleasure
+,Entertainment,Entertainment industry
+,Entertainment,Performance
+,Entertainment,Show
+,Entertainment,Spectacle
+,Entertainment,Event
+,Entertainment,Concert
+,Entertainment,Theater
+,Entertainment,Play
+,Entertainment,Musical
+,Entertainment,Opera
+,Entertainment,Ballet
+,Entertainment,Dance
+,Entertainment,Performance art
+,Entertainment,Live entertainment
+,Entertainment,Stage
+,Entertainment,Screen
+,Entertainment,Movie
+,Entertainment,Film
+,Entertainment,Cinema
+,Entertainment,Motion picture
+,Entertainment,Flick
+,Entertainment,Feature film
+,Entertainment,Documentary
+,Entertainment,Short film
+,Entertainment,Indie film
+,Entertainment,Blockbuster
+,Entertainment,Box office
+,Entertainment,Premiere
+,Entertainment,Screening
+,Entertainment,Red carpet
+,Entertainment,Awards
+,Entertainment,Oscars
+,Entertainment,Emmys
+,Entertainment,Grammys
+,Entertainment,Tonys
+,Entertainment,Golden Globes
+,Entertainment,Festival
+,Entertainment,Film festival
+,Entertainment,Music festival
+,Entertainment,Concert
+,Entertainment,Gig
+,Entertainment,Performance
+,Entertainment,Live music
+,Entertainment,Band
+,Entertainment,Musician
+,Entertainment,Singer
+,Entertainment,Songwriter
+,Entertainment,Composer
+,Entertainment,Artist
+,Entertainment,DJ
+,Entertainment,Playlist
+,Entertainment,Album
+,Entertainment,Single
+,Entertainment,Song
+,Entertainment,Track
+,Entertainment,Music video
+,Entertainment,Dance
+,Entertainment,Nightclub
+,Entertainment,Disco
+,Entertainment,Clubbing
+,Entertainment,Party
+,Entertainment,Rave
+,Entertainment,Nightlife
+,Entertainment,Bar
+,Entertainment,Pub
+,Entertainment,Lounge
+,Entertainment,Comedy
+,Entertainment,Stand-up comedy
+,Entertainment,Improv
+,Entertainment,Sketch comedy
+,Entertainment,Comedian
+,Entertainment,Jokes
+,Entertainment,Laughter
+,Entertainment,Humor
+,Entertainment,Funny
+,Entertainment,Satire
+,Entertainment,Parody
+,Entertainment,Spoof
+,Entertainment,Prank
+,Entertainment,Magic
+,Entertainment,Magician
+,Entertainment,Illusion
+,Entertainment,Trick
+,Entertainment,Sleight of hand
+,Entertainment,Mentalism
+,Entertainment,Escape artist
+,Entertainment,Circus
+,Entertainment,Acrobatics
+,Entertainment,Clown
+,Entertainment,Juggling
+,Entertainment,Carnival
+,,
+,,
+19,Subscription,Netflix
+,Subscription,Amazon Prime Video
+,Subscription,Hulu
+,Subscription,Disney+
+,Subscription,Apple TV+
+,Subscription,HBO Max
+,Subscription,YouTube Premium
+,Subscription,Paramount+
+,Subscription,Peacock
+,Subscription,ESPN+
+,Subscription,Discovery+
+,Subscription,Crunchyroll
+,Subscription,Sling TV
+,Subscription,FuboTV
+,Subscription,Philo
+,Subscription,Tubi
+,Subscription,Crave
+,Subscription,Vudu
+,Subscription,Roku Channel
+,Subscription,IMDb TV
+,Subscription,Plex
+,Subscription,Mubi
+,Subscription,Acorn TV
+,Subscription,BritBox
+,Subscription,Shudder
+,Subscription,Funimation
+,Subscription,Kanopy
+,Subscription,Sundance Now
+,Subscription,Hoopla
+,Subscription,CuriosityStream
+,,
+20,,
