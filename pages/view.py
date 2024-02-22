@@ -16,7 +16,7 @@ st.divider()
 database = getData()
 
 df = database[database['username'] == st.session_state['username']]
-
+df = df.sort_values(by='date', ascending=[0])
 st.table(df)
 
 
