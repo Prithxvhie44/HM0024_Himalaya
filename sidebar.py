@@ -14,11 +14,20 @@ authenticator = stauth.Authenticate(
     config['preauthorized']
 )
 
+
+def logoutUser():
+    try:
+        authenticator.logout(key='logout', location='unrendered')
+    except:
+        pass
+    finally:
+        st.switch_page("main.py")
+
 def generateSideBar():
-    st.sidebar.page_link(label="Add Expense",page="pages/add.py")
+    st.sidebar.page_link(label="Add",page="pages/add.py")
     st.sidebar.page_link(label="View", page="pages/view.py")
     st.sidebar.page_link(label="Invest", page="pages/invest.py")
     st.sidebar.page_link(label="Forecast", page="pages/forecast.py")
-    st.sidebar.button(label="Logout", on_click=lambda: authenticator.logout(location='unrendered'))
+    st.sidebar.button(label="Logout", on_click=logoutUser)
 
 

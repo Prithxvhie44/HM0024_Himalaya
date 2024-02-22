@@ -7,6 +7,11 @@ from datetime import datetime
 from sidebar import generateSideBar
 from database import addRow
 
+
+categories = [
+'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Documents', 'Public Provident Fund', 'maid', 'Food',
+ 'Apparel', 'category', 'Household', 'Festivals', 'Cook', 'garbage disposal', 'Money transfer', 'Investment', 'Other', 'expense', 'Gift', 'Tourism', 'Beauty', 'Health', 'water (jar /tanker)', 'subscription', 'Recurring Deposit', 'Rent'
+]
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
     st.toast("Not authenticated")
     st.switch_page("main.py")
@@ -21,16 +26,7 @@ st.write("")
 st.header("Use the below button to record a expense")
 st.divider()
 
-def checkFile():
-    # Tries to read the database. If exists, leave it, if no, creates a empty db with 3 columns.
-    try:
-        pd.read_csv('database.csv')
-    except:
-        db = pd.DataFrame(columns=['Date', 'Tags', 'Amount'])
-        db.to_csv('database.csv')
-
-
-def addToDatabase(description, amount):
+def addToDatabase(description, amount, category):
     dt = datetime.now()
     date = dt.date()
 
@@ -38,23 +34,11 @@ def addToDatabase(description, amount):
             date=date,
             username=st.session_state['username'],
             description=description,
-            category='category',
+            category=category,
             amount = amount,
         )
     st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending.")
 
-    # # Read the database.
-    # db = pd.read_csv('database.csv', index_col=[0])
-    # # Using datatime module to get the date.
-    # dt = datetime.now()
-    #
-    # # Append row to database.
-    # db.loc[len(db)] = {'Date': str(dt.date()), 'Tags': tags, 'Amount': amount}
-    #
-    # # Save database
-    # db.to_csv('database.csv')
-    #
-    # st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending")
 
 
 audio = audiorecorder("Start Recording", "Stop Recording")
@@ -78,14 +62,13 @@ if len(audio) > 0:
 
     st.info("Given below are the essential components of your sentence.")
     tags = ' '.join(tags)
-    
-    # Check if database exists using checkFile()
-    checkFile()
 
+    category = st.selectbox(label="Category", options=categories)
+    
     st.write(f"Tags: `{tags}`")
     st.write(f"Amount: `{amount}`")
     # Button to add to database.
-    st.button("Add to database ?", on_click=lambda: addToDatabase(tags, amount))
+    st.button("Add to database ?", on_click=lambda: addToDatabase(tags, amount, category))
 
 
 
