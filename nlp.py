@@ -1,10 +1,6 @@
 import pandas as pd
 import nltk
 
-# Downloaind models
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-
 # Parse the sentence using NLP to get keywords and amount
 def getEntry(text):
     # Tokenize using nltk

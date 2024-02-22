@@ -4,6 +4,14 @@ from speechlib import getPhrase
 from nlp import getEntry
 import pandas as pd
 from datetime import datetime
+from sidebar import generateSideBar
+
+if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
+    st.toast("Not authenticated")
+    st.switch_page("main.py")
+
+st.set_page_config(page_title="Add Expense")
+generateSideBar()
 
 # Description
 st.title("Add a expense")

@@ -1,7 +1,7 @@
 cookie:
   expiry_days: 30
   key: random_signature_key
-  name: random_cookie_name
+  name: yafa_cookie_name
 credentials:
   usernames:
     jsmith:
@@ -11,7 +11,7 @@ credentials:
       password: $2b$12$BsOVEoSgqwEfkFrfImlfl.xFwbBy3lZ0C0l3EMBJrFNy86n6Lf6ui
     pspiagicw:
       email: prathampowar2001@gmail.com
-      logged_in: false
+      logged_in: true
       name: Pratham Powar
       password: $2b$12$h8yajXIkZA3HN5UEzmy2Su0bFKhLZTHf9u.9X5O7la7hunVBIKCtm
     rbriggs:
