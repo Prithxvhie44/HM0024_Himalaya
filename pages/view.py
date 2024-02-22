@@ -5,7 +5,7 @@ from database import getData
 
 st.set_page_config(layout='wide')
 
-if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
+if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
     st.switch_page("main.py")
 

@@ -14,4 +14,4 @@ dt = datetime.now()
 #             category=df.iloc[i]['Category'],
 #             amount=df.iloc[i]['Amount']
 #             )
-print(set(getData()['category']))
+# print(set(getData()['category']))

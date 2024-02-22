@@ -13,7 +13,7 @@ categories = [
  'Apparel', 'Household', 'Festivals', 'Cook', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Beauty', 'Health', 'Subscription', 'Rent'
 ]
 
-if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
+if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
     st.switch_page("main.py")
 
@@ -29,7 +29,7 @@ st.divider()
 
 def addToDatabase(description, amount, category):
     dt = datetime.now()
-    date = dt.date()
+    date = dt.strftime("")
 
     addRow(
             date=date,
