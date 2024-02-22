@@ -16,12 +16,7 @@ authenticator = stauth.Authenticate(
 
 
 def logoutUser():
-    try:
-        authenticator.logout(key='logout', location='unrendered')
-    except:
-        pass
-    finally:
-        st.switch_page("main.py")
+    st.switch_page("main.py")
 
 def generateSideBar():
     st.sidebar.page_link(label="Add",page="pages/add.py")

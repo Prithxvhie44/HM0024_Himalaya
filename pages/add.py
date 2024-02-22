@@ -9,9 +9,10 @@ from database import addRow
 
 
 categories = [
-'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Documents', 'Public Provident Fund', 'maid', 'Food',
- 'Apparel', 'category', 'Household', 'Festivals', 'Cook', 'garbage disposal', 'Money transfer', 'Investment', 'Other', 'expense', 'Gift', 'Tourism', 'Beauty', 'Health', 'water (jar /tanker)', 'subscription', 'Recurring Deposit', 'Rent'
+'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Documents', 'Public Provident Fund', 'Food',
+ 'Apparel', 'Household', 'Festivals', 'Cook', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Beauty', 'Health', 'Subscription', 'Rent'
 ]
+
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
     st.toast("Not authenticated")
     st.switch_page("main.py")

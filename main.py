@@ -31,13 +31,13 @@ elif status == False:
 elif status == None:
     st.warning("Authenticate yourself")
 
-# try:
-#     email, username, name = authenticator.register_user(preauthorization=False)
-#     if email:
-#         saveConfig()
-#         st.success("User created successfully. Please log in.")
-# except RegisterError as e:
-#     st.error(str(e))
+try:
+    email, username, name = authenticator.register_user(preauthorization=False)
+    if email:
+        saveConfig()
+        st.success("User created successfully. Please log in.")
+except RegisterError as e:
+    st.error(str(e))
 
 #
 
