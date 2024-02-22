@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sidebar import generateSideBar 
+from database import getData
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
     st.toast("Not authenticated")
@@ -10,8 +11,10 @@ generateSideBar()
 
 st.title("Your logged expenses!")
 st.divider()
-database = pd.read_csv("database.csv", index_col=[0])
+database = getData()
 
-st.table(database)
+df = database[database['username'] == st.session_state['username']]
+
+st.table(df)
 
 

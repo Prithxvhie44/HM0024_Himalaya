@@ -5,6 +5,7 @@ from nlp import getEntry
 import pandas as pd
 from datetime import datetime
 from sidebar import generateSideBar
+from database import addRow
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
     st.toast("Not authenticated")
@@ -29,19 +30,31 @@ def checkFile():
         db.to_csv('database.csv')
 
 
-def addToDatabase(tags, amount):
-    # Read the database.
-    db = pd.read_csv('database.csv', index_col=[0])
-    # Using datatime module to get the date.
+def addToDatabase(description, amount):
     dt = datetime.now()
-    
-    # Append row to database.
-    db.loc[len(db)] = {'Date': str(dt.date()), 'Tags': tags, 'Amount': amount}
+    date = dt.date()
 
-    # Save database
-    db.to_csv('database.csv')
+    addRow(
+            date=date,
+            username=st.session_state['username'],
+            description=description,
+            category='category',
+            amount = amount,
+        )
+    st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending.")
 
-    st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending")
+    # # Read the database.
+    # db = pd.read_csv('database.csv', index_col=[0])
+    # # Using datatime module to get the date.
+    # dt = datetime.now()
+    #
+    # # Append row to database.
+    # db.loc[len(db)] = {'Date': str(dt.date()), 'Tags': tags, 'Amount': amount}
+    #
+    # # Save database
+    # db.to_csv('database.csv')
+    #
+    # st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending")
 
 
 audio = audiorecorder("Start Recording", "Stop Recording")
