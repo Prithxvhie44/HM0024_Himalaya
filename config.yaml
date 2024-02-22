@@ -9,6 +9,11 @@ credentials:
       logged_in: false
       name: John Smith
       password: $2b$12$BsOVEoSgqwEfkFrfImlfl.xFwbBy3lZ0C0l3EMBJrFNy86n6Lf6ui
+    prithvi:
+      email: prithvi@gmail.com
+      logged_in: false
+      name: Prithviraj More
+      password: $2b$12$oWrHp2iXlz3QRkaZWQUnHu42U4ABMBFx9quNFT0op3YBMlOd4IdTW
     pspiagicw:
       email: prathampowar2001@gmail.com
       logged_in: true

@@ -19,6 +19,6 @@ def generateSideBar():
     st.sidebar.page_link(label="View", page="pages/view.py")
     st.sidebar.page_link(label="Invest", page="pages/invest.py")
     st.sidebar.page_link(label="Forecast", page="pages/forecast.py")
-    authenticator.logout(location='sidebar')
+    st.sidebar.button(label="Logout", on_click=lambda: authenticator.logout(location='unrendered'))
 
 
