@@ -12,7 +12,7 @@ if 'authentication_status' not in st.session_state or st.session_state['authenti
 
 generateSideBar()
 
-st.title("`Expense At a Glance`")
+st.title("`Expense At a Glance` :moneybag: ")
 st.divider()
 database = getData()
 

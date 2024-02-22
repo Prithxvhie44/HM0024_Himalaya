@@ -2,18 +2,24 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from sidebar import generateSideBar
+from database import getData
 import pickle
+
+st.set_page_config(page_title="Investments", layout='centered')
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
     st.switch_page("main.py")
 
-st.set_page_config(page_title="Investments", layout='centered')
 
 generateSideBar()
 
-st.title("Analysis")
-st.header("Here's a analysis of your daily spending")
+
+data = getData()
+
+st.title("`Analysis` :money_with_wings:")
+st.divider()
+st.write("A showcase of your spending.")
 st.divider()
 
 model = pickle.load(open('data/model.h5', 'rb'))

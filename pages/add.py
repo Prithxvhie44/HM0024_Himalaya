@@ -7,25 +7,17 @@ from datetime import datetime
 from sidebar import generateSideBar
 from database import addRow
 
-st.set_page_config(page_title="Add Expense", layout="wide")
+st.set_page_config(page_title="Add Expense", layout="centered")
 
 categories = [
-'Culture', 'Education', 'Self-development', 'Grooming', 'Family', 'Social Life', 'Transportation', 'Food',
- 'Apparel', 'Household', 'Festivals', 'Money transfer', 'Investment', 'Other', 'Gift', 'Tourism', 'Health', 'Subscription'
+'Education', 'Social Life', 'Transportation', 'Food',
+ 'Household', 'Money transfer', 'Investment', 'Tourism', 'Health', 'Subscription'
 ]
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
     st.switch_page("main.py")
 
-generateSideBar()
-
-# Description
-st.title("Add a expense")
-
-st.write("")
-st.header("Use the below button to record a expense")
-st.divider()
 
 def predictCategory(tags):
     category = None
@@ -40,7 +32,6 @@ def predictCategory(tags):
 
 def addToDatabase(description, amount, category):
     am = 0
-
     try:
         am = int(amount)
     except:
@@ -59,8 +50,14 @@ def addToDatabase(description, amount, category):
     st.success("Successfully added to the database! Use the other tabs to explore more about your financial spending.")
 
 
+generateSideBar()
 
-audio = audiorecorder("Start Recording", "Stop Recording")
+# Description
+st.title("`Add a Expense` :coin:")
+st.divider()
+st.write("Record a voicenote to track a expense.")
+
+audio = audiorecorder("🎤", "⏺")
 
 
 if len(audio) > 0:
@@ -75,7 +72,7 @@ if len(audio) > 0:
         st.stop()
 
     st.info("Given below is the text that got recorded")
-    st.text(phrase)
+    st.code(phrase)
     # Extract tags and amount using NLP. Defined in nlp.py
     tags, amount = getEntry(phrase)
 
@@ -86,7 +83,6 @@ if len(audio) > 0:
     except:
         st.error("Amount is not int")
 
-    st.info("Given below are the essential components of your sentence.")
     predicted_category = predictCategory(tags)
 
     index = 0
@@ -95,12 +91,23 @@ if len(audio) > 0:
 
     tags = ' '.join(tags)
 
+    if predicted_category != None:
+        st.success("A category has been automatically detected!")
+    else:
+        st.warning("Coouldn't detect a category.Please select manually")
     category = st.selectbox(label="Category", options=categories, index=index)
     
-    st.write(f"Tags: `{tags}`")
-    st.write(f"Amount: `{amount}`")
+    st.info("Given below are the essential components of your note.")
+    st.write(f"- Tags: `{tags}`")
+    st.write(f"- Amount: `{amount}`")
     # Button to add to database.
     st.button("Add to database ?", on_click=lambda: addToDatabase(tags, amount, category))
+
+with st.expander("How does it work ?"):
+    st.write("1) Record transactions using your voice.")
+    st.write("2) Automagically detect the description,amount and category.")
+    st.write("3) Add any expense with 3 taps.")
+
 
 
 

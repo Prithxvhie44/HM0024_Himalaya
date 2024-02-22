@@ -2,6 +2,12 @@ import streamlit as st
 from sidebar import generateSideBar 
 from database import getData
 from statsmodels.tsa.arima.model import ARIMA
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import streamlit as st
+
+st.set_page_config(page_title="Forecast", layout='centered')
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
     st.toast("Not authenticated")
@@ -9,19 +15,15 @@ if 'authentication_status' not in st.session_state or st.session_state['authenti
 
 generateSideBar()
 
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import streamlit as st
-
-
 # df = pd.read_csv("C:/Users/Vedant Hirekar/Downloads/archive (3)/Expensedata.csv")
 # df = df.iloc[300:]
 # print(df)
 df = getData()
-print(df.columns)
+# print(df.columns)
 
+st.title("`Forecast` :bar_chart:")
+st.divider()
+st.write("This is a forecast of your future expenses. This graph also shows the seasonality within a year.")
 # Preprocess the data
 df['date'] = pd.to_datetime(df['date'])
 df.set_index('date', inplace=True)
@@ -53,4 +55,4 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.pyplot()
 
 with st.expander(label="Learn more"):
-    st.write(" this is a short description about arima and stuff")
+    st.write("We use time series prediction to provide a rough forecasting of your expenses.")
