@@ -35,6 +35,7 @@ def predictCategory(tags):
         for i in range(len(cat)):
             if tag in cat.iloc[i]['words'].split():
                 category = cat.iloc[i]['category']
+                break
     return category
 
 def addToDatabase(description, amount, category):
