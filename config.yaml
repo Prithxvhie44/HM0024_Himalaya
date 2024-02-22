@@ -1,0 +1,24 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      logged_in: false
+      name: John Smith
+      password: $2b$12$BsOVEoSgqwEfkFrfImlfl.xFwbBy3lZ0C0l3EMBJrFNy86n6Lf6ui
+    pspiagicw:
+      email: prathampowar2001@gmail.com
+      logged_in: false
+      name: Pratham Powar
+      password: $2b$12$h8yajXIkZA3HN5UEzmy2Su0bFKhLZTHf9u.9X5O7la7hunVBIKCtm
+    rbriggs:
+      email: rbriggs@gmail.com
+      logged_in: false
+      name: Rebecca Briggs
+      password: $2b$12$17klx1Ll83rTz0iAjSts..2V84yES5J8RPE/JGfoWae.5tapnF99G
+preauthorized:
+  emails:
+  - melsby@gmail.com
