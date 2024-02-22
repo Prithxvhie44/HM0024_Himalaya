@@ -4,6 +4,11 @@ cookie:
   name: yafa_cookie_name
 credentials:
   usernames:
+    demo:
+      email: demo@email.com
+      logged_in: false
+      name: Demo
+      password: $2b$12$pNoruaS0.nhOAL57JyS8/OZ0piroo/7WQ5nK7eyef5L1oMJ1Bmh9i
     jsmith:
       email: jsmith@gmail.com
       logged_in: false
