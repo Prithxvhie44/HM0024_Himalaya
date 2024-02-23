@@ -52,7 +52,7 @@ item_percentages = (item_prices / total_price) * 100
 fig, ax = plt.subplots(figsize=(13, 5))
 ax.pie(item_percentages, labels=item_percentages.index, autopct='%1.1f%%', startangle=90, radius=0.5, pctdistance=0.8)
 ax.axis('equal')
-st.markdown("Pie chart ")
+st.markdown("Categorical Expenditure")
 st.pyplot(fig)
 
 st.divider()
