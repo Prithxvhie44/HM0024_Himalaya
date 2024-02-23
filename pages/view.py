@@ -32,7 +32,7 @@ l_exp = df.iloc[0,4]
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Average Expenditure", "Rs. "+ str(avg))
-col2.metric("Sum of last 30 Expenditure","Rs. "+ str( sum(ls) ), delta= "Rs. "+str(l_exp) )
+col2.metric("Sum of last 30 Expenditure","Rs. "+ str( sum(ls) ))
 col3.metric("Last Expenditure", "Rs. "+ str(l_exp))
 
 style_metric_cards()
