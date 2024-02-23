@@ -60,3 +60,4 @@ streamlit_authenticator
 statsmodels
 streamlit_extras
 millify
+scikit-learn
