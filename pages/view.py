@@ -5,6 +5,7 @@ import numpy as np
 from sidebar import generateSideBar 
 from database import getData
 import datetime
+from streamlit_extras.metric_cards import style_metric_cards
 
 st.set_page_config(layout='wide')
 
@@ -31,9 +32,11 @@ ls = df.iloc[:30,4]
 l_exp = df.iloc[0,4]
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Average Expenditure", avg)
-col2.metric("Sum of last 30 Expenditure", sum(ls))
-col3.metric("Last Expenditure", l_exp)
+col1.metric("Average Expenditure", "Rs. "+ str(avg))
+col2.metric("Sum of last 30 Expenditure","Rs. "+ str( sum(ls) ), delta= "Rs. "+str(l_exp) )
+col3.metric("Last Expenditure", "Rs. "+ str(l_exp))
+
+style_metric_cards()
 
 st.divider()
 
@@ -50,9 +53,9 @@ item_prices = df.groupby('category')['amount'].sum()
 total_price = item_prices.sum()
 item_percentages = (item_prices / total_price) * 100
 fig, ax = plt.subplots(figsize=(13, 5))
-ax.pie(item_percentages, labels=item_percentages.index, autopct='%1.1f%%', startangle=90, radius=0.5, pctdistance=0.8)
+ax.pie(item_percentages,  labels=item_percentages.index, autopct='%1.1f%%', startangle=90, radius=0.5, pctdistance=0.8, explode=[0.025]*11)
 ax.axis('equal')
-st.markdown("Categorical Expenditure")
+st.markdown("Pie chart ")
 st.pyplot(fig)
 
 st.divider()
