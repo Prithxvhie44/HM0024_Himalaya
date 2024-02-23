@@ -9,7 +9,6 @@ from sidebar import generateSideBar
 st.set_page_config(layout='wide')
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False:
-    st.toast("Not authenticated")
     st.switch_page("main.py")
 
 generateSideBar()
@@ -20,15 +19,23 @@ database = getData()
 
 
 df = database[database['username'] == st.session_state['username']]
+cdf = database[database['username'] == st.session_state['username']]
 
-# df['date'] = pd.to_datetime(df['date'], dayfirst=True).dt.date
-# df = df.sort_values(by='date', ascending=[0])
+
+num_categories = len(set(df['category']))
+
+if len(df) == 0:
+    st.info("You don't have enough data.Keep using `yafa` for expenditure stats")
+    st.stop()
+
+df['date'] = pd.to_datetime(df['date'], yearfirst=True).dt.date
+df = df.sort_values(by='date', ascending=[0])
 
 
 df['amount']= df['amount'].astype(float)
 avg = round(df['amount'].mean(),2)
 ls = df.iloc[:30,4]
-l_exp = df.iloc[0,4]
+l_exp = cdf.iloc[-1,4]
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Average Expenditure", "Rs. "+ str(avg))
@@ -52,7 +59,7 @@ item_prices = df.groupby('category')['amount'].sum()
 total_price = item_prices.sum()
 item_percentages = (item_prices / total_price) * 100
 fig, ax = plt.subplots(figsize=(13, 5))
-ax.pie(item_percentages,  labels=item_percentages.index, autopct='%1.1f%%', startangle=90, radius=0.5, pctdistance=0.8, explode=[0.025]*11)
+ax.pie(item_percentages,  labels=item_percentages.index, autopct='%1.1f%%', startangle=90, radius=0.5, pctdistance=0.8, explode=[0.025]*num_categories)
 ax.axis('equal')
 st.markdown("Pie chart ")
 st.pyplot(fig)

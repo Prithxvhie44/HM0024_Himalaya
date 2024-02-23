@@ -10,7 +10,6 @@ import random
 st.set_page_config(page_title="Investments", layout='wide')
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
-    st.toast("Not authenticated")
     st.switch_page("main.py")
 
 

@@ -10,7 +10,6 @@ import streamlit as st
 st.set_page_config(page_title="Forecast", layout='centered')
 
 if 'authentication_status' not in st.session_state or st.session_state['authentication_status'] == False or st.session_state['authentication_status'] == None:
-    st.toast("Not authenticated")
     st.switch_page("main.py")
 
 generateSideBar()
@@ -20,6 +19,8 @@ generateSideBar()
 # print(df)
 df = getData()
 # print(df.columns)
+
+df = df[df['username'] == st.session_state['username']]
 
 st.title("`Forecast` :bar_chart:")
 st.divider()
@@ -35,7 +36,11 @@ df_monthly = df.resample('M').sum()
 
 
 model = ARIMA(df_monthly['amount'], order=(5,1,0))  
-arima_model = model.fit()
+try:
+    arima_model = model.fit()
+except:
+    st.info("Data is not enough. Keep using `yafa` for further predictions")
+    st.stop()
 
 
 forecast_steps = 6  # Forecast one additional month

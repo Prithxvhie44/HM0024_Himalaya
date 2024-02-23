@@ -9,6 +9,11 @@ credentials:
       logged_in: false
       name: Demo
       password: $2b$12$pNoruaS0.nhOAL57JyS8/OZ0piroo/7WQ5nK7eyef5L1oMJ1Bmh9i
+    example:
+      email: example@example.com
+      logged_in: false
+      name: Example
+      password: $2b$12$rfIwXqBAjTRDSZPbdTJ6VemkqnUqxeeO2VZsuHf2oCLy9WMQpgeMO
     jsmith:
       email: jsmith@gmail.com
       logged_in: false

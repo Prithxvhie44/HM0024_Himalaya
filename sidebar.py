@@ -21,6 +21,10 @@ def generateSideBar():
         st.page_link(label="Expense Stats ", page="pages/view.py")
         st.page_link(label="Investment Stats", page="pages/invest.py")
         st.page_link(label="Expense Forecasts", page="pages/forecast.py")
+        try:
+            authenticator.logout(location='sidebar')
+        except:
+            st.session_state['authentication_status'] = False
 
 
 
