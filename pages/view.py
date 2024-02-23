@@ -2,10 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from sidebar import generateSideBar 
 from database import getData
-import datetime
 from streamlit_extras.metric_cards import style_metric_cards
+from sidebar import generateSideBar 
 
 st.set_page_config(layout='wide')
 
@@ -15,7 +14,7 @@ if 'authentication_status' not in st.session_state or st.session_state['authenti
 
 generateSideBar()
 
-st.title("Your logged expenses!")
+st.title("`Expense At a Glance` :moneybag: ")
 st.divider()
 database = getData()
 
