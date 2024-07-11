@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Once all dependencies are installed. Use `streamlit` to run the project.
 
 ```sh
-streamlit run Home.py
+streamlit run main.py
 ```
 
 This should launch the app and show the link to access it. It should also open the browser if it can.
